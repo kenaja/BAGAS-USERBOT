@@ -3,7 +3,7 @@ FROM xluxz/geezproject:buster
 # BAGAS-USERBOT
 # BAGAS
 
-RUN git clone -b BAGAS-USERBOT https://github.com/ybgskr12/BAGAS-USERBOT /root/userbot
+RUN git clone -b BAGAS-USERBOT https://github.com/kenaja/BAGAS-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
